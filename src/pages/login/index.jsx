@@ -51,7 +51,8 @@ const Login = () => {
                                             </div>
                                         )} name="password" control={control}/>
                             <Button disabled={isLoading} color="success" type="submit" className="mt-3 w-100">
-                                {isLoading && 'Login'}
+                              
+                              Login
                             </Button>
                         </form>
                     </CardBody>
